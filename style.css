@@ -1,0 +1,122 @@
+body {
+    font-family: hero, ;
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    margin: 0;
+    padding:0;
+}
+
+.box-1 {
+    background-color: #1F2937;
+    color:white;
+    
+
+}
+
+header {
+    display:flex;
+    justify-content: space-around;
+    align-items: center
+    
+}
+
+.header-links {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-2 {
+    display:flex;
+    background-color: white;
+    flex-direction: column;
+    
+
+}
+
+.box-3 {
+    display:flex;
+    background: #E5E7EB;
+    flex-direction:column;
+    padding: 80px;
+}
+
+.box-4 {
+    display:flex;
+    background:white;
+    
+}
+
+footer {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color:white;
+}
+
+.images {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    margin:100px;
+    flex:1;
+    gap:25px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+#awesome {
+    width: 20rem;
+}
+
+button {
+    background-color: #3882F6;
+    color:white;
+    border-radius: 25px;
+
+}
+
+.image-box {
+    display:flex;
+    flex-direction:column;
+    padding: 8px;
+    border-radius: 25px ;
+    text-align: center;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#Thor {
+    display:flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+}
