@@ -25,13 +25,14 @@ header {
     display:flex;
     align-items: center;
     justify-content: space-between;
+    gap: 8px;
 }
 
 .box-2 {
     display:flex;
     background-color: white;
     flex-direction: column;
-    
+    margin-bottom:100px 
 
 }
 
@@ -45,6 +46,9 @@ header {
 .box-4 {
     display:flex;
     background:white;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
     
 }
 
@@ -60,8 +64,8 @@ footer {
 .images {
     display:flex;
     flex-direction: row;
-    justify-content:space-around;
-    
+    justify-content:center;
+    gap:10px;
 }
 
 h2 {
@@ -88,7 +92,8 @@ button {
     background-color: #3882F6;
     color:white;
     border-radius: 25px;
-
+    border: 1px solid royalblue;
+    
 }
 
 .image-box {
@@ -97,17 +102,15 @@ button {
     padding: 8px;
     border-radius: 25px ;
     text-align: center;
+    height:150px;
+    width:150px;
 }
 
 img {
     border-radius: 25px;
 }
 
-.container2 {
-    display: flex;
-    flex-direction: column;
-    
-}
+
 
 #Thor {
     display:flex;
@@ -119,4 +122,25 @@ img {
 #quote {
     font-size: 36px;
     font-style: italic;
+}
+
+.text {
+    margin:0;
+    padding:0;
+    gap:0;
+}
+
+.modal {
+    background-color:#3882F6;
+    width:480px;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    align-self:center;
+    padding:25px;
+    margin:100px;
+
+}
+p {
+    margin:0
 }
