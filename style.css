@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200;1,300;1,400&display=swap'););
+}
+
+
 body {
-    font-family: hero, ;
+    font-family: 'Montserrat';
     display:flex;
     flex-direction: column;
     flex:1;
@@ -17,7 +23,7 @@ body {
 header {
     display:flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
     
 }
 
@@ -32,7 +38,8 @@ header {
     display:flex;
     background-color: white;
     flex-direction: column;
-    margin-bottom:100px 
+    margin-bottom:100px;
+    font-family: 'Montserrat'; 
 
 }
 
@@ -41,6 +48,7 @@ header {
     background: #E5E7EB;
     flex-direction:column;
     padding: 80px;
+   
 }
 
 .box-4 {
@@ -66,6 +74,7 @@ footer {
     flex-direction: row;
     justify-content:center;
     gap:10px;
+    margin-bottom: 5px;
 }
 
 h2 {
@@ -91,8 +100,9 @@ h2 {
 button {
     background-color: #3882F6;
     color:white;
-    border-radius: 25px;
+    border-radius: 5px;
     border: 1px solid royalblue;
+    width:100px;
     
 }
 
@@ -122,6 +132,8 @@ img {
 #quote {
     font-size: 36px;
     font-style: italic;
+    margin-right:75px;
+    margin-left: 75px;
 }
 
 .text {
@@ -139,8 +151,14 @@ img {
     align-self:center;
     padding:25px;
     margin:100px;
-
+    gap:10px;
 }
 p {
     margin:0
+}
+
+.button.button2 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }

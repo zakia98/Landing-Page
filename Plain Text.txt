@@ -1,0 +1,7 @@
+<div class="calltoaction">
+            <div class="text">
+                <p id="call">Call to action! It's time!</p>
+                <p id="sign-up">Sign up for our product by clicking that button right now!</p>
+            </div>
+            <div id="button"><button>Sign up!</button></div>
+        </div>
